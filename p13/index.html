@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathematical Expression calculator</title>
+<style>
+p{
+font-weight: 900;
+}
+</style>
+</head>
+<body>
+<p>Enter Mathematical Expression</p>
+<input type="text" id="mathermaticalexpression" placeholder="Add Mathematical expression">
+<br>
+<br>
+<input type="radio" id="calculatordouble" value="double" name="operation">
+<label for="calculatordouble">Double</label>
+<input type="radio" id="calculatorsquare" value="square" name="operation">
+<label for="calculatordouble">Square</label>
+<br>
+<br>
+<button style="border: 5px dashed black;height: 30px;width: 60px;"
+onclick="calculate()">Submit</button>
+<br>
+<br>
+<p>Output</p>
+<textarea id="output" placeholder="Your output will be shown here"></textarea>
+<script src="./script.js"></script>
+</body>
+</html>
